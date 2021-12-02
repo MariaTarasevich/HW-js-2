@@ -91,8 +91,8 @@ if (day >= 1 && day <= 9) {
     alert('Вторая декада');
 } else if (day >= 20 && day <= 31) {
     alert('Третья декада');
-} */
- 
+}
+  */
 /* //Задание 9
 
 let sut = prompt('Введите количество суток'),
@@ -127,53 +127,67 @@ document.write(` ${sec} секунд`)
  */
 /* // Задание 10
 
-if (day >= 1 && day <=31) {
-    (mon = 1) && alert('январь');
-    } else if (day > 31 && day <=59) {
-    (mon = 2) && alert('февраль');
-    } else if (day > 59 && day <= 90) {
-    (mon = 3) && alert('март');
-    } else if (day > 90 && day <= 120) {
-    (mon = 4) && alert('апрель');
-    } else if (day > 120 && day <= 151) {
-    (mon = 5) && alert('май');
-    } else if (day > 151 && day <= 181) {
-    (mon = 6) && alert('июнь');
-    } else if (day > 181 && day <= 212) {
-    (mon = 7) && alert('июль');
-    } else if (day > 212 && day <= 243) {
-    (mon = 8) && alert('август');
-    } else if (day > 243 && day <= 273) {
-    (mon = 9) && alert('сентябрь');
-    } else if (day > 273 && day <= 304) {
-    (mon = 10) && alert('октябрь');
-    } else if (day > 304 && day <= 334) {
-    (mon = 11) && alert('ноябрь');
-    } else if (day > 334 && day <= 365) {
-    (mon = 12) && alert('декабрь');
-    }
-    
-    switch (mon) {
+let mon=0;
+
+if (day <=31) {
+    mon++;
+    alert('январь');
+} else if ( day <=59) {
+    mon++;
+    alert('февраль');
+} else if (day <= 90) {
+    mon++;
+    alert('март');
+} else if ( day <= 120) {
+    mon++;
+    alert('апрель');
+} else if (day <= 151) {
+    mon++;
+    alert('май');
+} else if ( day <= 181) {
+    mon++;
+    alert('июнь');
+} else if ( day <= 212) {
+    mon++;
+    alert('июль');
+} else if ( day <= 243) {
+    mon++;
+    alert('август');
+} else if (day <= 273) {
+    mon++;
+    alert('сентябрь');
+} else if (day <= 304) {
+    mon++;
+    alert('октябрь');
+} else if ( day <= 334) {
+    mon++;
+    alert('ноябрь');
+} else if (day <= 365) {
+    mon++;
+    alert('декабрь');
+}
+
+switch (mon) {
     case 1:
     case 2:
     case 12:
-    alert('Зима');
+        alert('Зима');
     break;
     case 3:
     case 4:
     case 5:
-    alert('Весна');
+        alert('Весна');
     break;
     case 6:
     case 7:
     case 8:
-    alert('Лето');
+        alert('Лето');
     break;
     case 9:
     case 10:
     case 11:
-    alert('Зима');
+        alert('Зима');
     break;
     default:
-    alert('неверное значение')
-    } */
+            alert('неверное значение');
+} */
