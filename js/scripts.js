@@ -1,4 +1,4 @@
- // Задание 1
+/*  // Задание 1
 
 let name = prompt('Меня зовут'),
     age = prompt('Мне __ лет'),
@@ -7,7 +7,7 @@ let name = prompt('Меня зовут'),
     phone = prompt('Мой номер телефона'),
     email = prompt('Моя электронная почта');
 
-document.write(`Меня зовут ${name}. Мне ${age} лет. Я проживаю в городе ${city} и работаю в компании ${company}. Мои контактные данные: ${phone}, ${email}.`);
+document.write(`Меня зовут ${name}. Мне ${age} лет. Я проживаю в городе ${city} и работаю в компании ${company}. Мои контактные данные: ${phone}, ${email}.`); */
 
 /* // Задание 2
 
@@ -81,7 +81,7 @@ if (n >= 0 && n <= 15) {
     alert('Неверное значение');
 }
  */
-/*  // Задание 8
+ // Задание 8
 
 let day = prompt('Ввведите день');
 
@@ -92,7 +92,7 @@ if (day >= 1 && day <= 9) {
 } else if (day >= 20 && day <= 31) {
     alert('Третья декада');
 }
-  */
+ 
 /* //Задание 9
 
 let sut = prompt('Введите количество суток'),
@@ -125,45 +125,44 @@ document.write(` ${hours} часов`)
 document.write(` ${min} минут`)
 document.write(` ${sec} секунд`)
  */
-/* // Задание 10
+// Задание 10
 
 let mon=0;
-
 if (day <=31) {
-    mon++;
+    mon=1;
     alert('январь');
 } else if ( day <=59) {
-    mon++;
+    mon=2;
     alert('февраль');
 } else if (day <= 90) {
-    mon++;
+    mon=3;
     alert('март');
 } else if ( day <= 120) {
-    mon++;
+    mon=4;
     alert('апрель');
 } else if (day <= 151) {
-    mon++;
+    mon=5;
     alert('май');
 } else if ( day <= 181) {
-    mon++;
+    mon=6;
     alert('июнь');
 } else if ( day <= 212) {
-    mon++;
+    mon=7;
     alert('июль');
 } else if ( day <= 243) {
-    mon++;
+    mon=8;
     alert('август');
 } else if (day <= 273) {
-    mon++;
+    mon=9;
     alert('сентябрь');
 } else if (day <= 304) {
-    mon++;
+    mon=10;
     alert('октябрь');
 } else if ( day <= 334) {
-    mon++;
+    mon=11;
     alert('ноябрь');
 } else if (day <= 365) {
-    mon++;
+    mon=12;
     alert('декабрь');
 }
 
@@ -190,4 +189,4 @@ switch (mon) {
     break;
     default:
             alert('неверное значение');
-} */
+}
