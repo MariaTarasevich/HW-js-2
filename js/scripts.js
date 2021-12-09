@@ -64,26 +64,31 @@ if (j > 2 && j < 11 || k >= 6 && k < 14) {
 } else {
     alert('Неверно');
 } */
-/* 
-// Задание 7
 
+// Задание 7
+/* 
 let n = prompt('Ввведите n');
 
-if (n >= 0 && n <= 15) {
-    alert('Первая четверть');
-} else if (n >= 16 && n <= 30) {
-    alert('Вторая четверть');
-} else if (n >= 31 && n <= 45) {
-    alert('Третья четверть');
-} else if (n >= 46 && n <= 59) {
-    alert('Четвертая четверть');
-}  else {
-    alert('Неверное значение');
+switch(true){
+    case n >= 0 && n <= 15:
+        alert('Первая четверть')
+    break;
+    case n >= 16 && n <= 30:
+        alert('Вторая четверть')
+    break;
+    case n >= 31 && n <= 45:
+        alert('Третья четверть')
+    break;
+    case n >= 46 && n <= 59:
+        alert('Четвертая четверть')
+    break;
+    default:
+        alert('Неверное значение');
 }
  */
-/*  // Задание 8
+ // Задание 8
 
-let day = prompt('Ввведите день');
+/* let day = prompt('Ввведите день');
 
 if (day >= 1 && day <= 9) {
     alert('Первая декада');
@@ -93,9 +98,9 @@ if (day >= 1 && day <= 9) {
     alert('Третья декада');
 } */
  
-/* //Задание 9
+//Задание 9
 
-let sut = prompt('Введите количество суток'),
+/* let sut = prompt('Введите количество суток'),
 years = sut / 365,
 months = sut / 31,
 weeks = sut / 7,
@@ -123,47 +128,61 @@ if (sut < 7) {
 
 document.write(` ${hours} часов`)
 document.write(` ${min} минут`)
-document.write(` ${sec} секунд`)
- */
-/* // Задание 10
+document.write(` ${sec} секунд`) */
 
-let mon=0;
-if (day <=31) {
-    mon=1;
-    alert('январь');
-} else if ( day <=59) {
-    mon=2;
-    alert('февраль');
-} else if (day <= 90) {
-    mon=3;
-    alert('март');
-} else if ( day <= 120) {
-    mon=4;
-    alert('апрель');
-} else if (day <= 151) {
-    mon=5;
-    alert('май');
-} else if ( day <= 181) {
-    mon=6;
-    alert('июнь');
-} else if ( day <= 212) {
-    mon=7;
-    alert('июль');
-} else if ( day <= 243) {
-    mon=8;
-    alert('август');
-} else if (day <= 273) {
-    mon=9;
-    alert('сентябрь');
-} else if (day <= 304) {
-    mon=10;
-    alert('октябрь');
-} else if ( day <= 334) {
-    mon=11;
-    alert('ноябрь');
-} else if (day <= 365) {
-    mon=12;
-    alert('декабрь');
+// Задание 10
+
+/* let mon=0;
+
+switch(true){
+    case day <=31:
+        mon=1;
+        alert('январь');
+    break;
+    case day <=59:
+        mon=2;
+    alert('февраль')
+    break;
+    case day <= 90:
+        mon=3;
+        alert('март');
+    break;
+    case day <= 120:
+        mon=4;
+        alert('апрель');
+    break;
+    case day <= 151:
+        mon=5;
+        alert('май');
+    break;
+    case day <= 181:
+        mon=6;
+        alert('июнь');
+    break;
+    case day <= 212:
+        mon=7;
+        alert('июль');
+    break;
+    case  day <= 243:
+        mon=8;
+        alert('август');
+    break;
+    case day <= 273:
+        mon=9;
+        alert('сентябрь');
+    break;
+    case day <= 304:
+        mon=10;
+        alert('октябрь');
+    break;
+    case day <= 334:
+        mon=11;
+        alert('ноябрь');
+    break;
+    case day <= 365:
+        mon=12;
+        alert('декабрь');
+    break;
 }
 
 switch (mon) {
@@ -188,5 +207,5 @@ switch (mon) {
         alert('Зима');
     break;
     default:
-            alert('неверное значение');
-} */
+        alert('неверное значение');
+}  */
